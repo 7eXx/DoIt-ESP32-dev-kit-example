@@ -8,3 +8,6 @@ Add your user to **dialog** and **uucp** group, mandatory to write on usb dev.
 $ sudo usermod -a -G dialog $USER
 $ sudo usermod -a -G uucp $USER
 ```
+## Configurations
+Download resources as shown in the image:  
+(./download-boards-manager.png)
