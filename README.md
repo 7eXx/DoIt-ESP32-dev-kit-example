@@ -5,8 +5,12 @@ this repo aims to configure and test a fully operational esp32 dev kit board.
 Download and install Arduino IDE.  
 Add your user to **dialog** and **uucp** group, mandatory to write on usb dev.
 ```
-$ sudo usermod -a -G dialog $USER
+$ sudo usermod -a -G dialout $USER
 $ sudo usermod -a -G uucp $USER
+```
+Adjust user permissions on ttyUSB0 port.
+```
+$ sudo chmod a+rw /dev/ttyUSB0
 ```
 ## Configurations
 Download resources as shown in the image:  
